@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Thor Pet Shop</title>
+
+<meta
+    name="description"
+    content="Thor Pet Shop - cuidados, produtos, atendimento veterinário e serviços para seu pet."
+>
+
+<link rel="stylesheet" href="style.css">
+
+</head><body><!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <a href="#" class="logo-link" data-page="inicio">
+        <img
+            src="imagens/logo.png"
+            alt="Logo Thor Pet Shop"
+        >
+    </a>
+
+    <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+    >
+        ☰
+    </button>
+
+    <nav id="menu">
+
+        <a href="#" data-page="inicio">
+            Início
+        </a>
+
+        <a href="#" data-page="caes">
+            🐶 Cães
+        </a>
+
+        <a href="#" data-page="gatos">
+            🐱 Gatos
+        </a>
+
+        <a href="#" data-page="banho">
+            ✂️ Banho e Tosa
+        </a>
+
+        <a href="#" data-page="higienizacao">
+            🛁 Higienização
+        </a>
+
+        <a href="#" data-page="veterinario">
+            🩺 Veterinário
+        </a>
+
+        <a href="#" data-page="produtos">
+            🛍️ Produtos
+        </a>
+
+        <a href="#" data-page="agendamento">
+            📅 Agendamento
+        </a>
+
+        <a href="#" data-page="equipe">
+            👥 Equipe
+        </a>
+
+        <a href="#" data-page="horarios">
+            ⏰ Horários
+        </a>
+
+    </nav>
+
+    <button
+        class="cart-button"
+        id="abrirCarrinho"
+        type="button"
+    >
+        🛒
+
+        <span id="quantidadeCarrinho">
+            0
+        </span>
+    </button>
+
+</header>
+
+
+<!-- ================= CONTEÚDO ================= -->
+
+<main id="app"></main>
+
+
+<!-- ================= CARRINHO ================= -->
+
+<div
+    class="cart-overlay"
+    id="cartOverlay"
+>
+
+    <div class="cart">
+
+        <button
+            class="fechar-cart"
+            id="fecharCarrinho"
+            type="button"
+        >
+            ×
+        </button>
+
+        <h2>
+            🛒 Seu carrinho
+        </h2>
+
+        <div id="listaCarrinho"></div>
+
+        <div class="cart-footer">
+
+            <strong>
+                Total:
+                <span id="totalCarrinho">
+                    R$ 0,00
+                </span>
+            </strong>
+
+            <button
+                class="botao"
+                id="finalizarCompra"
+                type="button"
+            >
+                📲 Finalizar pelo WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ================= RODAPÉ ================= -->
+
+<footer>
+
+    <img
+        src="imagens/logo.png"
+        alt="Logo Thor Pet Shop"
+    >
+
+    <p>
+        © <span id="ano"></span> Thor Pet Shop
+    </p>
+
+    <p>
+        Todo amor do mundo para o seu pet! 🐾
+    </p>
+
+    <p>
+        📍 Rua Guanabara, nº 26
+    </p>
+
+    <p>
+        📞 (19) 98112-3401
+    </p>
+
+
+    <div class="footer-links">
+
+        <a
+            href="#"
+            data-page="como-chegar"
+        >
+            📍 Como chegar
+        </a>
+
+        <a
+            href="#"
+            data-page="horarios"
+        >
+            ⏰ Horários
+        </a>
+
+        <a
+            href="#"
+            data-page="agendamento"
+        >
+            📅 Agendar
+        </a>
+
+    </div>
+
+
+    <!-- DIREITOS RESERVADOS -->
+
+    <p class="direitos">
+
+        © 2026 MM System Tecnologia —
+        Todos os direitos reservados.
+
+    </p>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+</body></html>
